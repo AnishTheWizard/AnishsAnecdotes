@@ -21,8 +21,8 @@ function BlogPost(props) {
 
     return(
         <>
-            <HeaderImage text={"post title here"} img={"https://cdn.britannica.com/88/129488-131-09AB5E83/Internet-blue-screen-blog-society-history-media-2009.jpg"}/>
-            <Post title={details.title} body={details.desc} />
+            <HeaderImage text={details.desc} img={details.img}/>
+            <Post title={details.title} body={details.body} />
         </>
     );
 }

@@ -31,3 +31,6 @@ package-lock.json
 package.json
 package.json
 *.json
+package-lock.json
+public/family.png
+public/family.jpeg
